@@ -55,21 +55,32 @@ def split_movie(path, movie_name="Defualt"):
 
 
 def main():
+    root = os.getcwd()
+    # print("root", root)
     path = "."
     file_path = parse_path(path)
     # print(list(file_path))
     for path in file_path:
-        new_path = path.replace(" ", "")
-        os.rename(path, new_path)
-        r_path = os.path.join(os.getcwd(), new_path)
-        # print(r_path)
-        movie_name = new_path.split(".")[0]
-        # print(movie_name)
-        print(f"r_path: {r_path}, \nmovie_name: {movie_name}")
-        # print(os.getcwd())
-        # print(os.path.join(os.getcwd(), file_path))
-        split_movie(r_path, movie_name)
-
+        try:
+            new_path = path.replace(" ", "")
+            os.rename(path, new_path)
+        except FileNotFoundError as e:
+            print("e:>>>", e)
+        finally:
+            r_path = os.path.join(os.getcwd(), new_path)
+            # print(r_path)
+            movie_name = new_path.split(".")[0]
+            # print(movie_name)
+            print(f"r_path: {r_path}, \nmovie_name: {movie_name}")
+            # print(os.getcwd())
+            # print(os.path.join(os.getcwd(), file_path))
+            split_movie(r_path, movie_name)
+    # os.system("git add .")
+    # os.system("git commit -m 'up'")
+    # os.system("git push")
+    os.chdir(root)
+    print("osxojjjjsjxsjoxjsjxosjxojsojxsjxosxsxosjxosjxojsxjsjxosjxosjxosjxxsoxjsojx", os.getcwd())
+    os.system("sh deploy.sh")
 
 if __name__ == "__main__":
     main()
