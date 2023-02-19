@@ -80,9 +80,8 @@ def main():
     # os.system("git add .")
     # os.system("git commit -m 'up'")
     # os.system("git push")
-    os.chdir(root)
-    # print("osxojjjjsjxsjoxjsjxosjxojsojxsjxosxsxosjxosjxojsxjsjxosjxosjxosjxxsoxjsojx", os.getcwd())
-    os.system("sh deploy.sh")
+    # os.chdir(root)
+    # os.system("sh deploy.sh")
 
 
 if __name__ == "__main__":
