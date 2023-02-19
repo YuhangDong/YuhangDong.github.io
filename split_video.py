@@ -75,6 +75,8 @@ def main():
             # print(os.getcwd())
             # print(os.path.join(os.getcwd(), file_path))
             split_movie(r_path, movie_name)
+            # os.remove(new_path)
+            # print(new_path)
     # os.system("git add .")
     # os.system("git commit -m 'up'")
     # os.system("git push")
@@ -82,5 +84,8 @@ def main():
     # print("osxojjjjsjxsjoxjsjxosjxojsojxsjxosxsxosjxosjxojsxjsjxosjxosjxosjxxsoxjsojx", os.getcwd())
     os.system("sh deploy.sh")
 
+
 if __name__ == "__main__":
     main()
+
+# Auto Delete Code

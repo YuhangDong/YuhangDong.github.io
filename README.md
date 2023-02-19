@@ -30,3 +30,9 @@ https://cd.xfomo.net/1a4fa3a7-f393-4a86-9d1a-daff229640fc/xfomojhj.m3u8
 ```url
 https://cd.xfomo.net/56ea0952-664e-4df6-a9cc-7628fb740a05/xfomojhj.m3u8
 ```
+```url
+https://cd.xfomo.net/351571a2-f8db-495a-8688-d30f53c6b577/xfomojhj.m3u8
+```
+```url
+https://cd.xfomo.net/a93e4e69-146c-4d06-beee-755f46512d80/xfomojhj.m3u8
+```
