@@ -27,3 +27,6 @@ https://cd.xfomo.net/2535b88a-386b-461b-9f96-0dcae9c71055/xfomojhj.m3u8
 ```url
 https://cd.xfomo.net/1a4fa3a7-f393-4a86-9d1a-daff229640fc/xfomojhj.m3u8
 ```
+```url
+https://cd.xfomo.net/56ea0952-664e-4df6-a9cc-7628fb740a05/xfomojhj.m3u8
+```
